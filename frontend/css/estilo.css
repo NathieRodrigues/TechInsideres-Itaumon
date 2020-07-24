@@ -1,0 +1,71 @@
+body{
+    background-color: orangered;
+    color: fuchsia;
+}
+
+.container{
+    background-color: white;
+    color: orangered;
+    font-weight: bolder;
+}
+
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.head{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: orangered;
+    color: papayawhip;
+    font-weight: bolder;
+}
+
+.buttonlg{
+    display: inline-block;
+    padding: 12px 19px;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center; 
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .buttonlg:hover {background-color: #3e8e41}
+  
+  .buttonlg:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .buttonsm {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center; 
+    text-decoration: none;
+    outline: none;
+    color: #ff4500;
+    background-color: white;
+    border: white;
+    border-radius: 8px;
+    }
+
+    .exportExcel{
+        display: block;
+        padding:10px;
+        border:1px solid #000;
+        border-radius: 10px;
+        margin-top:10px;
+        width: fit-content;
+        cursor: pointer;
+    }
